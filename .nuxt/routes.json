@@ -1,51 +1,51 @@
 [
   {
     "path": "/",
-    "component": "C:\\\\lagou\\\\learnPart\\\\swot-at\\\\part3-3work\\\\realworld-nuxtjs\\\\pages\\\\layout",
+    "component": "C:\\\\realworld-nuxtjs\\\\pages\\\\layout",
     "children": [
       {
         "path": "",
         "name": "home",
-        "component": "C:\\\\lagou\\\\learnPart\\\\swot-at\\\\part3-3work\\\\realworld-nuxtjs\\\\pages\\\\home",
-        "_name": "_60837e92"
+        "component": "C:\\\\realworld-nuxtjs\\\\pages\\\\home",
+        "_name": "_f720d9de"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "C:\\\\lagou\\\\learnPart\\\\swot-at\\\\part3-3work\\\\realworld-nuxtjs\\\\pages\\\\login",
-        "_name": "_9fb6c7d4"
+        "component": "C:\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_09bb1777"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "C:\\\\lagou\\\\learnPart\\\\swot-at\\\\part3-3work\\\\realworld-nuxtjs\\\\pages\\\\login",
-        "_name": "_9fb6c7d4"
+        "component": "C:\\\\realworld-nuxtjs\\\\pages\\\\login",
+        "_name": "_09bb1777"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "C:\\\\lagou\\\\learnPart\\\\swot-at\\\\part3-3work\\\\realworld-nuxtjs\\\\pages\\\\settings",
-        "_name": "_5d799754"
+        "component": "C:\\\\realworld-nuxtjs\\\\pages\\\\settings",
+        "_name": "_4002f155"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "C:\\\\lagou\\\\learnPart\\\\swot-at\\\\part3-3work\\\\realworld-nuxtjs\\\\pages\\\\article",
-        "_name": "_0d41fb3a"
+        "component": "C:\\\\realworld-nuxtjs\\\\pages\\\\article",
+        "_name": "_47442984"
       },
       {
         "path": "/edit",
         "name": "edit",
-        "component": "C:\\\\lagou\\\\learnPart\\\\swot-at\\\\part3-3work\\\\realworld-nuxtjs\\\\pages\\\\edit",
-        "_name": "_6081f7bd"
+        "component": "C:\\\\realworld-nuxtjs\\\\pages\\\\edit",
+        "_name": "_f723e788"
       },
       {
         "path": "/profile",
         "name": "profile",
-        "component": "C:\\\\lagou\\\\learnPart\\\\swot-at\\\\part3-3work\\\\realworld-nuxtjs\\\\pages\\\\profile",
-        "_name": "_1294bf16"
+        "component": "C:\\\\realworld-nuxtjs\\\\pages\\\\profile",
+        "_name": "_6079e637"
       }
     ],
-    "_name": "_53b1e41d"
+    "_name": "_2cead4dc"
   }
 ]

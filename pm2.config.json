@@ -1,9 +1,7 @@
 {
-  // 配置启动npm start的脚本
   "app": [
     {
-      "name": "Realworld", // 启动应用名
-      "script": "npm",
+      "name": "Realworld",
       "args": "start"
     }
   ]
