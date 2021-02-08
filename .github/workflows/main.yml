@@ -16,7 +16,7 @@ uses: actions/setup-node@master
 - run: npm install
 - run: npm run build
 - run: tar -zcvf release.tgz .nuxt static app.js nuxt.config.js package.json
-package-lock.json ecosystem.config.js pm2.config.json
+package-lock.json pm2.config.json
 # 发布 Release
 - name: Create Release
 id: create_release
@@ -51,7 +51,7 @@ username: ${{ secrets.USERNAME }}
 password: ${{ secrets.PASSWORD }}
 port: ${{ secrets.PORT }}
 script: |
-cd /root/pm2-test
+cd /root/realworld-nuxtjs
 wget https://github.com/songyi/realworldnuxtjs/releases/latest/download/release.tgz -O release.tgz
 tar zxvf release.tgz
 npm install --production
