@@ -5,23 +5,19 @@ export const state = () => {
   return {
     // 当前登录用户的登录状态
     user: null,
-    profile: null,
   }
 }
 
 export const mutations = {
   setUser(state, data) {
     state.user = data
-  },
-  setProfile(state, data) {
-    state.profile = data
-  },
+  }
 }
 
 export const actions = {
   // nuxtServerInit 是一个特殊的 action 方法
   // 这个 action 会在服务端渲染期间自动调用
-  // 作用：初始化容器数据，传递数据给客户端使用
+  // 作用：初始化容器数据，传递数据给客户端使用git
   nuxtServerInit({ commit }, { req }) {
     let user = null
 
@@ -39,25 +35,8 @@ export const actions = {
     // 提交 mutation 修改 state 状态
     commit('setUser', user)
   },
-  nuxtServerInit({ commit }, { req }) {
-    let profile = null
-
-    // 如果请求头中有 Cookie
-    if (req.headers.cookie) {
-      // 使用 cookieparser 把 cookie 字符串转为 JavaScript 对象
-      const parsed = cookieparser.parse(req.headers.cookie)
-      try {
-        profile = JSON.parse(parsed.profile)
-      } catch (err) {
-        // No valid cookie found
-      }
-    }
-    // 提交 mutation 修改 state 状态
-    commit('setProfile', profile)
-  },
 }
 
 export const getters = {
   user: (state) => state.user,
-  profile: (state) => state.profile,
 }
